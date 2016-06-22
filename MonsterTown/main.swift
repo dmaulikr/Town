@@ -26,11 +26,14 @@ fredTheZombie.changeName("Fred the Zombie", walksWithLimp: false)
 let vampy = Vampire()
 vampy.town = myTown
 vampy.name = "Dracula"
+/*
 for( var i = 0; i<20; i++){
     vampy.terrorizeTown()
     vampy.town?.printTownDescription()
     vampy.vamparr[i].name = "Vampire thralls \(i)"
     print(vampy.vamparr[i].name)
 }
-
+*/
+let spookyNoise = Zombie.makeSpookyNoise()
+print(spookyNoise)
 
